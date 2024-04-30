@@ -14,7 +14,6 @@ public class NameResponseDTO {
     private String gender;
     private double genderProbability;
     private int age;
-    private double ageProbability;
     private String country;
     private double countryProbability;
 }
