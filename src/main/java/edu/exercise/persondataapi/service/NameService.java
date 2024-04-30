@@ -44,7 +44,6 @@ public class NameService {
         //Setting Age
         response.setAge(agifyResponse.getAge());
         //Setting Country and Probability
-        System.out.println(nationalizeResponse.toString());
         if (nationalizeResponse.getCountry() != null && !nationalizeResponse.getCountry().isEmpty()) {
             List<CountryDTO> countries = nationalizeResponse.getCountry();
             CountryDTO mostProbableCountry = countries.get(0); // Assuming the most probable country is the first one

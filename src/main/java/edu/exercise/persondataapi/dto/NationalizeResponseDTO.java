@@ -12,12 +12,4 @@ public class NationalizeResponseDTO {
     private List<CountryDTO> country;
     private int count;
 
-    @Override
-    public String toString() {
-        return "NationalizeResponseDTO{" +
-                "name='" + name + '\'' +
-                ", countries=" + country +
-                ", count=" + count +
-                '}';
-    }
 }
